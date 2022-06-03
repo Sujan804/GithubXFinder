@@ -12,7 +12,7 @@ searchBtn.addEventListener('click', (e) => {
                 if (data.message == 'Not Found') {
                     // Show Alert
                     ui.showAlert("User not Found!", "alert alert-danger");
-                } elsgite {
+                } else {
                     //Show Profile
                     ui.showProfile(data);
                 }
